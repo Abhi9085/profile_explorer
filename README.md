@@ -1,16 +1,45 @@
-# profile_explorer
+# Profile Explorer
 
-A new Flutter project.
+A Flutter-based app to explore user profiles, view details, and like profiles. Supports responsive layout, offline detection, and smooth Hero animations between screens.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Grid of Profile Cards**  
+  Display a scrollable grid of user profiles with name, city, and profile picture.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Profile Details Screen**  
+  Tap on a profile to view full details, including age, city, and country.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Hero Animations**  
+  Smooth transition animations for profile pictures between the grid and detail screen.
+
+- **Responsive Design**  
+  Layout adapts to different screen sizes and orientations.
+
+- **Like Button**  
+  Tap to like/unlike a profile with animated heart effect.
+
+- **Offline Handling**  
+  Detects network connectivity and shows a Wi-Fi off overlay when offline.
+
+- **Country Filter**  
+  Filter profiles by country using a dropdown.
+
+- **Pull to Refresh**  
+  Refresh the profile list via swipe-down gesture.
+
+---
+
+## Screenshots
+
+![Home Screen](home_screen.jpg)  
+![Detail Screen](detail_screen.jpg)  
+
+> Add actual screenshots of your app here.
+
+---
+
+## Folder Structure
+
