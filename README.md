@@ -40,6 +40,66 @@ A Flutter-based app to explore user profiles, view details, and like profiles. S
 > Add actual screenshots of your app here.
 
 ---
+## Folder Structur
 
-## Folder Structure
+lib/
+│
+├── data/
+│   ├── models/
+│   ├── repositories/
+│   ├── services/
+│
+├── presentation/
+│   ├── providers/
+│   ├── screens/
+│   │   ├── home/
+│   │   └── detail/
+│   ├── widgets/
+│
+└── main.dart
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Flutter SDK ≥ 3.0
+- Dart ≥ 3.0
+- Android Studio / VS Code (or your preferred IDE)
+
+### Installation
+
+1. Clone the repository:
+git clone https://github.com/Abhi9085/profile_explorer.git
+
+2. Navigate to the project folder:
+cd profile_explorer
+
+3. Install dependencies:
+flutter pub get
+
+4. Run the app:
+flutter run
+
+State Management:
+
+Provider: Used for managing user list, likes, selected country filter, and connectivity status.
+
+Connectivity Handling:
+
+Uses ConnectivityProvider to detect internet connectivity.
+
+Shows a semi-transparent overlay with a Wi-Fi off icon when offline.
+
+Hero Animations:
+
+Profile pictures use unique Hero tags for smooth transitions between the Home and Detail screens.
+
+Unique tag format: 'profile_<user.id>'.
+
+Notes:
+
+Data is fetched from a remote API or a mock data source (depending on your setup).
+
+The app supports pull-to-refresh and filtering without requiring a restart.
 
