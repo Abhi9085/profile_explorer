@@ -1,34 +1,3 @@
-// import 'package:flutter/material.dart';
-// import 'package:provider/provider.dart';
-// import 'presentation/providers/user_provider.dart';
-// import 'presentation/screens/home/home_screen.dart';
-
-// void main() {
-//   runApp(const ProfileExplorerApp());
-// }
-
-// class ProfileExplorerApp extends StatelessWidget {
-//   const ProfileExplorerApp({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return MultiProvider(
-//       providers: [
-//         ChangeNotifierProvider(create: (_) => UserProvider()),
-//       ],
-//       child: MaterialApp(
-//         debugShowCheckedModeBanner: false,
-//         title: 'Profile Explorer',
-//         theme: ThemeData(
-//           useMaterial3: true,
-//           colorSchemeSeed: Colors.indigo,
-//         ),
-//         home: const HomeScreen(),
-//       ),
-//     );
-//   }
-// }
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'presentation/providers/connectivity_provider.dart';
