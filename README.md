@@ -81,25 +81,25 @@ flutter pub get
 4. Run the app:
 flutter run
 
-State Management:
+### State Management:
 
-Provider: Used for managing user list, likes, selected country filter, and connectivity status.
+# Provider: Used for managing user list, likes, selected country filter, and connectivity status.
 
-Connectivity Handling:
+### Connectivity Handling:
 
-Uses ConnectivityProvider to detect internet connectivity.
+# Uses ConnectivityProvider to detect internet connectivity.
 
-Shows a semi-transparent overlay with a Wi-Fi off icon when offline.
+# Shows a semi-transparent overlay with a Wi-Fi off icon when offline.
 
-Hero Animations:
+### Hero Animations:
 
-Profile pictures use unique Hero tags for smooth transitions between the Home and Detail screens.
+# Profile pictures use unique Hero tags for smooth transitions between the Home and Detail screens.
 
-Unique tag format: 'profile_<user.id>'.
+# Unique tag format: 'profile_<user.id>'.
 
-Notes:
+### Notes:
 
-Data is fetched from a remote API or a mock data source (depending on your setup).
+# Data is fetched from a remote API or a mock data source (depending on your setup).
 
-The app supports pull-to-refresh and filtering without requiring a restart.
+# The app supports pull-to-refresh and filtering without requiring a restart.
 
