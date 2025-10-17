@@ -34,8 +34,8 @@ A Flutter-based app to explore user profiles, view details, and like profiles. S
 
 ## Screenshots
 
-![Home Screen](home_screen.jpg)  
-![Detail Screen](detail_screen.jpg)  
+![Home Screen](<img src="home_screen.jpg" alt="Home Screen" width="300" />)  
+![Detail Screen](<img src="detail_screen.jpg" alt="Detail Screen" width="300" />)  
 
 > Add actual screenshots of your app here.
 
